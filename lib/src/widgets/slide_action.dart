@@ -179,7 +179,7 @@ class IconSlideAction extends ClosableSlideAction {
             overflow: TextOverflow.ellipsis,
             style: Theme.of(context)
                 .primaryTextTheme
-                .caption!
+                .bodySmall! // Replace with bodySmall
                 .copyWith(color: foregroundColor ?? estimatedColor),
           ),
         ),
